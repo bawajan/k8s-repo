@@ -1,0 +1,11 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: debug-wo-sa
+  namespace: test-sa
+spec:
+  containers:
+  - image: bibinwilson/docker-kubectl:latest
+    name: kubectl
+      #  serviceAccountName: mynewserviceaccount

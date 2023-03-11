@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  creationTimestamp: "2023-03-11T05:51:33Z"
+  name: mynewserviceaccount
+  namespace: test-sa
+  resourceVersion: "12275"
+
